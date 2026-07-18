@@ -40,7 +40,7 @@ async def welcome_member(client, message):
 
 @app.on_message(filters.command("autopost") & filters.user(admin_id))
 async def auto_post(client, message):
-    channel_id = -100xxxxxxxxxx # Channel ID ထည့်ပါ
+    channel_id = -1001003841480184 # Channel ID ထည့်ပါ
     await client.send_message(channel_id, "Channel အတွက် အလိုအလျောက် ပို့စ်တင်ခြင်း!")
 
 app.run()
